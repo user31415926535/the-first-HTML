@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<!--这是一个HTML的笔记本-->
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>这是第一个HTML</title>
+    <link rel="stylesheet" type="text/css" href="Stylesheet1.css">
+    <meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
+    <meta name="description" content="免费 Web & 编程 教程">
+    <meta name="author" content="Runoob">\
+    <meta http-equiv="refresh" content="30">
+    <style>
+        body{color:forestgreen;resize:both ;}
+        h1{color:red;}
+        h2{color:blue;}
+        ul.a{list-style-type:circle;}
+        p.one{border-style:dotted;
+              border-width:5px;
+              border-color:black;
+              outline-style:dashed;
+        }
+    </style>
+</head>
+<body>
+    <h1>这是1号标题</h1>
+
+    <h2>这是2号标题</h2>
+
+    <h1 style="font-family:verdana;">一个标题</h1>
+    <p style="font-family:arial;color:red;font-size:20px;">一个段落。</p>
+    <!--现在通常使用font-family（字体），color（颜色），和font-size（字体大小）属性来定义文本样式，而不是使用<font>标签。-->
+
+
+    <b>加粗字体</b><br><br>
+    <i>斜体文本</i><br><br>
+    <a href="https://www.baidu.com">这是一个链接</a>
+    <h1><b>这是一个标题</b></h1>
+    <p class="one">这是第一个段落</p>
+    <hr><!--<hr>创建水平线，用于分隔-->
+    <p>这是第二个段落</p><hr>
+    <p>这是<br>第<br>三个段落</p><!--<br>用于不产生新段落的情况下换行-->
+    <img border="0" src="1111.jpg" ,height="500" width="250" /><!--添加图片-->
+    <table border="1">
+        <tr>
+            <td>row 1, cell 1</td>
+            <td>row 1, cell 2</td>
+        </tr>
+        <tr>
+            <td>row 2, cell 1</td>
+            <td>row 2, cell 2</td>
+        </tr>
+    </table><!--制表-->
+    <form>
+        First name: <input type="text" name="firstname"><br>
+        Last name: <input type="text" name="lastname">
+    </form><!--文本域-->
+    <form>
+        Password: <input type="password" name="pwd">
+    </form><!--密码字段-->
+    <form>
+        <input type="radio" name="sex" value="male">Male<br>
+        <input type="radio" name="sex" value="female">Female
+    </form><!--单选按钮-->
+    <form>
+        <input type="checkbox" name="vehicle" value="Bike">I have a bike<br>
+        <input type="checkbox" name="vehicle" value="Car">I have a car
+    </form><!--复选框-->
+    <form name="input" action="html_form_action.php" method="get">
+        Username: <input type="text" name="user">
+        <input type="submit" value="Submit">
+    </form><!--提交按钮-->
+    <!--框架：可以在一个页面中小窗另一个网页-->
+    <iframe src="mypage.html" width="200" height="200"></iframe><!--设置高度与宽度-->
+    <iframe src="mypage.html" frameborder="0"></iframe><!--移除边框-->
+
+    <iframe src="mypage.html" name="iframe_a"></iframe>
+    <p><a href="http://www.runoob.com" target="iframe_a">RUNOOB.COM</a></p><!--使用iframe来显示目标链接页面-->
+    <ul class="a">
+        <li>coffee</li>
+        <li>nice</li>
+        <li>rice</li>
+    </ul>
+        
+</body>
+</html>

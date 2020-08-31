@@ -1,0 +1,14 @@
+
+hr {
+    color: sienna;
+}
+
+p {
+    margin-left: 20px;
+}
+
+body {
+    background-image: url("timg (2).jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}

@@ -1,0 +1,20 @@
+
+hr {
+    color: sienna;
+}
+
+p {
+    margin-left: 20px;
+}
+
+body {
+   
+    font-size:1.875em;
+    /*text-align:center;*/
+    background-image: url("timg (2).jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+a {
+    text-decoration: none;
+}
